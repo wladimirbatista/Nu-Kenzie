@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 363px;
+    height: 351px;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.form-container p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.paragrafo-descricao {
+    width: 310px;
+}
+
+.form-container input[type=text] {
+    width: 314px;
+    height: 52.8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #868E96;
+    background: #F8F9FA;
+    border: 0;
+    border-radius: 8px;
+    padding-left: 16px;
+    margin-top: 12px;
+}
+
+.form-container small {
+    width: 310px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #868E96;
+    margin-top: 5px;
+}
+
+.input-container {
+    display: flex;
+    margin-top: 18px;
+}
+
+.form-container input[type=number] {
+    width: 128px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #868E96;
+    background: #F8F9FA;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.form-container input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-container select {
+    width: 150px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #868E96;
+    background: #F8F9FA;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-left: 1rem;
+    cursor: pointer;
+}
+
+.select-box {
+    margin-left: 36px;
+}
+
+.form-container button {
+    width: 314px;
+    height: 48px;
+    background: #FD377E;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: 19px;
+    cursor: pointer;
+}

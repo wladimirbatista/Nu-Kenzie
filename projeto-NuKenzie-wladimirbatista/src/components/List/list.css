@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Nunito:wght@400;500;600;700;800&display=swap');
+
+nav {
+    width: 570px;
+    height: 459px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.nav-header-container {
+    width: 560px;
+    display: flex;
+}
+
+.section-title {
+    display: flex;
+    width: 190px;
+    height: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #212529;
+}
+
+.filter-btns {
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8rem;
+}
+
+.filter-btns button {
+    height: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-todos {
+    width: 69px;
+    background: #FD377E;
+    color: white;
+}
+
+.btn-entrada {
+    width: 87px;
+    background: #E9ECEF;
+    color: #868E96;
+}
+
+.btn-entrada:hover {
+    background: #FD377E;
+    color: white;
+}
+
+.btn-despesas {
+    width: 92px;
+    background: #E9ECEF;
+    color: #868E96;
+}
+
+.btn-despesas:hover {
+    background: #FD377E;
+    color: white;
+}
